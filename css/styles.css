@@ -1,0 +1,223 @@
+#title {
+    background-color: #006d77;
+    color: #fff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 2% 13% 8%;
+}
+
+
+/* navigation bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #B8FFF9;
+}
+
+.nav-item {
+    padding: 0px 15px 0px 15px;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-family: 'Montserrat';
+    color: #003049;
+}
+
+
+/* download button */
+
+.download-button {
+    margin: 10% 3% 5% 0;
+}
+
+
+/* tittle-image */
+
+.tittle-image {
+    width: 30%;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 18%;
+}
+
+
+/* feature-section */
+
+#features {
+    padding: 10% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+h3 {
+    font-family: 'Noto Sans';
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    padding-bottom: 7%;
+    color: #85F4FF;
+}
+
+.icon:hover {
+    color: #006d77;
+}
+
+.fa-dove {
+    color: #B8FFF9;
+}
+
+
+/* testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #006d77;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h2 {
+    font-family: 'Noto Sans';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    margin: 20PX;
+    width: 10%;
+    border-radius: 50%;
+}
+
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-colunm {
+    padding: 4% 2%;
+}
+
+@media(max-width: 1163px) {
+    #title {
+        text-align: center;
+    }
+    .tittle-image {
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+        margin-left: 1%;
+    }
+}
+
+
+/* cta */
+
+#cta {
+    background-color: #006d77;
+    padding: 7% 15%;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Noto Sans';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    padding-bottom: 10px;
+}
+
+.paw {
+    color: #85F4FF;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 5%;
+}
+
+.paw-2 {
+    color: #85F4FF;
+    transform: rotate(40deg);
+    position: absolute;
+    right: 10%;
+    bottom: 56%;
+}
+
+.paw-3 {
+    color: #85F4FF;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 10%;
+    bottom: 24%;
+}
+
+.paw-4 {
+    color: #85F4FF;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 5%;
+    bottom: 43%;
+}
+
+@media(max-width:995px) {
+    .paw {
+        color: #85F4FF;
+        position: relative;
+    }
+    .paw-2 {
+        color: #85F4FF;
+        position: relative;
+        top: 10%;
+    }
+    .paw-3 {
+        color: #85F4FF;
+        position: relative;
+    }
+    .paw-4 {
+        color: #85F4FF;
+        position: relative;
+        left: 40%;
+        top: -64%;
+    }
+}
